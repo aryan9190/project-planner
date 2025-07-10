@@ -1,0 +1,21 @@
+{
+    "name": "project-planner",
+    "version": "1.0.0",
+    "description": "A MCP tool that suggests GitHub starter templates based on user project ideas.",
+    "type": "module",
+    "bin": {
+        "project-planner": "index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "mcp", "github", "ai", "project", "starter"
+    ],
+    "author": "Aryan Yadav",
+    "dependecies": {
+        "@modelcontextprotocol/sdk" : "^0.3.2",
+        "zod": "^3.22.4",
+        "node-fetch": "^3.2.2"
+    }
+}
